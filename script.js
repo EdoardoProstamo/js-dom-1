@@ -18,5 +18,13 @@ btnElement.addEventListener('click', function(){
 
     //imposto l'immagine che vedrò quando cliccherò sul bottone
     L1Element.src = 'img/yellow_lamp.png';
+    L1Element.alt = 'Lampadina 2';
 
+})
+
+
+//BONUS
+btnElement.addEventListener('click', function(){
+    //stampa click sul bottone
+    console.log('click bottone');
 })
