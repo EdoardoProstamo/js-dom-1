@@ -12,10 +12,11 @@ btnElement.addEventListener('click', function(){
     //stampa click sul bottone
     console.log('click bottone');
     //stampo tutto ciò che riguarda l'immagine, che comparirà quando cliccherò sul bottone
-    console.log(btnElement.src);
-    console.log(btnElement.alt);
-    console.log(btnElement.id);
+    console.log(L1Element.src);
+    console.log(L1Element.alt);
+    console.log(L1Element.id);
 
-    
+    //imposto l'immagine che vedrò quando cliccherò sul bottone
+    L1Element.src = 'img/yellow_lamp.png';
 
 })
