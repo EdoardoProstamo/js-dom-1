@@ -28,18 +28,18 @@ btnElement.addEventListener('click', function () {
     //stampa click sul bottone
     // console.log('click bottone');
     // //stampa classe img
-    // console.log(L1Element.className);
+    // console.log(L1Element.classList);
 
-    if (L1Element.className.contains('off')) {
+    if (L1Element.classList.contains('off')) {
         console.log('Lampadina');
-        L1Element.className.remove('off');
+        L1Element.classList.remove('off');
 
         L1Element.src = 'img/yellow_lamp.png';
         L1Element.alt = 'Lampadina 2';
         btnElement.innerText = 'Spegni';
     }else {
         console.log('Lampadina 2');
-        L1Element.className.add('off');
+        L1Element.classList.add('off');
 
         L1Element.src = 'img/white_lamp.png';
         L1Element.alt = 'Lampadina';
