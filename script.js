@@ -6,3 +6,7 @@ console.log(L1Element);
 
 const btnElement = document.getElementById('btn');
 console.log(btnElement);
+
+btnElement.addEventListener('click', function(){
+    console.log('click bottone');
+})
